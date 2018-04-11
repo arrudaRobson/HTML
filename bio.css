@@ -1,5 +1,6 @@
 body {
     background-color: #F2FFFC;
+    line-height: 1.5;
     font-family: 'Gaegu', cursive;
 }
 
@@ -9,6 +10,8 @@ main h1 {
     color: #FAFFFA;/*rgb(250,255,250);*/
     text-align: center;
     font-family: 'Roboto Slab', serif;
+    padding: 20px;
+    margin: 0px;
 }
 
 h2{
@@ -18,4 +21,31 @@ h2{
 
 p {
     text-align: justify;
+    margin: 20px 0px;
+}
+
+blockquote{
+    background-color: #D3DDDA;
+    padding: 16px;
+    border: 10px solid #C2CCCA;
+    width: 198px;
+    margin: 0px;
+}
+
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Gaegu', cursive;
+}
+
+aside li{
+    display: inline-block;
+}
+
+footer{
+    background-color: #000;
+    color: #FAFFFC;
+    padding: 20px;
 }
